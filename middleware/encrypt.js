@@ -1,11 +1,9 @@
 
-//Checking the crypto module
 const { exception } = require('console');
 
 const Cryptr = require('cryptr');
 const cryptr = new Cryptr('#&$^');
 
-//Encrypting text
 function encrypt(text) {
 
     return new Promise((res, rej) => {
